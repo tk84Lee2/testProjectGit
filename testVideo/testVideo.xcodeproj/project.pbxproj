@@ -17,6 +17,7 @@
 		29486EE424D8FB030073EEA5 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29486EE324D8FB030073EEA5 /* AVKit.framework */; };
 		29486EE824D8FFFC0073EEA5 /* iosTutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29486EE724D8FEA70073EEA5 /* iosTutorial.mp4 */; };
 		29486EEC24D9365A0073EEA5 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29486EEB24D9365A0073EEA5 /* UIImage+Gif.swift */; };
+		29486EEF24D944B00073EEA5 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29486EEE24D944B00073EEA5 /* DateExt.swift */; };
 		29A4251924D80164001D45AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4251824D80164001D45AB /* AppDelegate.swift */; };
 		29A4251B24D80164001D45AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4251A24D80164001D45AB /* SceneDelegate.swift */; };
 		29A4251D24D80164001D45AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4251C24D80164001D45AB /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		29486EE324D8FB030073EEA5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		29486EE724D8FEA70073EEA5 /* iosTutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosTutorial.mp4; sourceTree = "<group>"; };
 		29486EEB24D9365A0073EEA5 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		29486EEE24D944B00073EEA5 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		29A4251524D80164001D45AB /* testVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A4251824D80164001D45AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A4251A24D80164001D45AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		29486EED24D944950073EEA5 /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				29486EEE24D944B00073EEA5 /* DateExt.swift */,
+			);
+			path = logo;
+			sourceTree = "<group>";
+		};
 		29A4250C24D80164001D45AB = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +157,7 @@
 				29486ED424D802110073EEA5 /* SampleVideo_1280x720_1mb.mp4 */,
 				29486EDC24D8DDCC0073EEA5 /* 2267243A593A011534.gif */,
 				29486EE724D8FEA70073EEA5 /* iosTutorial.mp4 */,
+				29486EED24D944950073EEA5 /* logo */,
 			);
 			path = testVideo;
 			sourceTree = "<group>";
@@ -306,6 +317,7 @@
 			files = (
 				29A4251D24D80164001D45AB /* ViewController.swift in Sources */,
 				29A4251924D80164001D45AB /* AppDelegate.swift in Sources */,
+				29486EEF24D944B00073EEA5 /* DateExt.swift in Sources */,
 				29486EEC24D9365A0073EEA5 /* UIImage+Gif.swift in Sources */,
 				29486EDA24D8D56E0073EEA5 /* TestCell.swift in Sources */,
 				29486ED724D8024B0073EEA5 /* ListViewController.swift in Sources */,
