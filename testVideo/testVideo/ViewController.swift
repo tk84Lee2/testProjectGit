@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("imageAdd")
     }
     
     override func viewDidAppear(_ animated: Bool) {
