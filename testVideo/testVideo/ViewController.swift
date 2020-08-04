@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("date add")
+        print("imageAdd")
     }
     
     override func viewDidAppear(_ animated: Bool) {
